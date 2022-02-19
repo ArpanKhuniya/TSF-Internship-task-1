@@ -1,0 +1,68 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #d0ebff;
+}
+
+/* NAV BAR */
+
+.nav-bar {
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.6rem 1.2rem;
+  background-color: #0c345a;
+}
+
+.bank-name {
+  font-size: 3rem;
+
+  color: #fff;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1.6rem;
+  border-radius: 2rem;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: #d0ebff;
+  color: #555;
+}
+
+.my-info {
+  padding: 2rem 5rem;
+}
+
+.btn-info {
+  padding: 1rem 1.2rem;
+  background-color: rgb(78, 153, 223) !important;
+  color: #fff !important;
+  margin-left: 5px;
+  padding: 0.75rem;
+  transition: all 0.3s;
+}
+
+.btn-info:hover {
+  background-color: rgb(67, 83, 230) !important;
+}
